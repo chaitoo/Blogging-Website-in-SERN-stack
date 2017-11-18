@@ -1,0 +1,57 @@
+form.add-festival {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+label {
+    padding-right: 2em;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+select.artist-dropdown {
+    font-size: 1em;
+    padding: 5px;
+}
+
+.add-festival input {
+    padding: 5px;
+    width: 80%;
+    font-size: 1em;
+}
+
+.add-festival textarea {
+  width: 80%;
+}
+
+.form-row {
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: #c04848;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    transition: 0.5s cubic-bezier(1, 0.57, 0.04, 1.3);
+}
+
+/*input[type="submit"]:hover {
+    color: white;
+    background: #c04848;
+    transition: 0.5s cubic-bezier(1, 0.57, 0.04, 1.3);
+}*/
+
+.artist-dropdown option {
+    color: #777;
+}
+
+.submit-btn {
+  text-align: center;
+  padding: 3em 0em;
+}

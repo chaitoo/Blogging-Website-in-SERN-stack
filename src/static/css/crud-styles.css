@@ -1,0 +1,17 @@
+.fest-list-content:hover .remove-fest{
+  display: block;
+}
+.remove-fest {
+    position: absolute;
+    right: -15%;
+    display: none;
+}
+
+.remove-fest button {
+    background: red;
+    color: white;
+    padding: 3px;
+    font-size: 0.8em;
+    border: 1px;
+    cursor: pointer;
+}

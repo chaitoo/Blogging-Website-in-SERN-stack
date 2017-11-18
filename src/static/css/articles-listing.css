@@ -1,0 +1,49 @@
+.blog-card-wrapper:hover .blog-grid-title {
+
+}
+
+.blog-card-wrapper:hover .background-img img {
+    transition: 3s linear;
+    transform: scale(1.5)
+}
+
+.blog-wrapper {
+  padding-bottom: 5em;
+}
+
+.banner {
+    height: 93vh;
+}
+
+@media screen and (max-width: 600px) {
+  .background-img {
+    height: 170px;
+    width: 100%;
+}
+.blog-grid-title {
+  font-size: 1em;
+}
+
+.page-title {
+  font-size: 1.3em;
+  padding: 0.5em;
+}
+
+.img-div {
+  width: 100%;
+}
+
+.slidable-banner-div {
+  padding: 0em;
+}
+
+.layer-title {
+  font-size: 1.7em;
+    text-align: center;
+}
+
+.layer-subtitle {
+  font-size: 1.3em;
+    text-align: center;
+}
+}

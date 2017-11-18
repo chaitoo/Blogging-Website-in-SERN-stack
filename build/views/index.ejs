@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/festival-list.css">
+    <link rel="stylesheet" href="/css/mobile-styles.css">
+    <link rel="stylesheet" href="/third-party/font-awesome/css/font-awesome.min.css">
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div  id="main">
+          <div class="navbar"><%-navbar-%></div>
+          <div class="banner-component">
+          <div class="banner-img">
+            <img src="http://media2.intoday.in/indiatoday/images/stories//2015August/bacardi-nh7-weekender-shillong,-october_mos_082715041824.jpg" alt="banner"/>
+          </div>
+          <div class="banner-overlay">
+          <div class="banner-title">
+            Your Online Guide To Worlds Music Festival Across The Globe
+          </div>
+           <div class="search-div">
+             <input type="text" placeholder="Search for your favorite festivals, articles and videos"/>
+             <button type="button" name="button">Search</button>
+           </div>
+          </div>
+        </div>
+
+            <div class="trending-div">
+          <div class="trending-title">
+            Trending Festivals Around The World
+          </div>
+          <div class="trending-subtitle">
+            Discover festivals across the globe. Preview for quality videos and Muse to stay connected
+          </div>
+        </div>
+
+        <div>
+          <div><%-festGridContainer-%></div>
+        </div>
+
+    </div>
+    <div></div>
+    <!--  <script type="text/javascript" src="/js/bundle.js"></script> -->
+    <script type="text/javascript" src="/js/common.js"></script>
+  </body>
+</html>

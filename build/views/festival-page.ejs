@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/festival-list.css">
+    <link rel="stylesheet" href="/css/mobile-styles.css">
+    <link rel="stylesheet" href="/css/festival-page.css">
+    <link rel="stylesheet" href="/third-party/font-awesome/css/font-awesome.min.css">
+
+    <title>Musefests-<%-title-%></title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="performer-section">
+  <div class="performer-background">
+
+    </div>
+
+</div>
+
+
+        <div class="navbar"><%-navbar-%></div>
+        <div class="festival-details"><%-fest_content-%></div>
+
+        <div class="performers">
+          <div class="page-title">
+            HEADLINERS
+            <div class="gap"></div>
+          </div>
+          <div class="performers-wrapper">
+            <div class="performers-div-main">
+
+            <% for( var i = 0; i < performers.length; i++) { %>
+              <div class="performer-tile-main" onclick= "showPerformer('<%= performers[i].artist_id %>')">
+                  <img src=<%= performers[i].img_url %> alt="performer"/>
+                  <div class="headliner-name">
+                    <div class="headline-overlay-name">
+                      <%= performers[i].name %>
+                    </div>
+                  </div>
+              </div>
+            <% } %>
+
+            </div>
+            <button class="performer-slide-left-btn" >&#10094;</button>
+            <button class="performer-slide-right-btn" >&#10095;</button>
+
+          </div>
+        </div>
+    </div>
+  <!--  <script type="text/javascript" src="/js/bundle.js"></script> -->
+  <script type="text/javascript">
+
+  document.getElementsByClassName('performer-background')[0].addEventListener('click', hidePerformer);
+
+    function hidePerformer(e) {
+      if(e.target.classList.contains('performer-background'))
+        document.getElementsByClassName("performer-background")[0].style.display = "none";
+        document.body.style.overflow = "scroll";
+    }
+
+    function showPerformer(p) {
+      var performer;
+      fetch('http://test.musefests.com/api/details/performers/'+p)
+        .then(resp => resp.json())
+        .then(function (data) {
+            performer = data[0];
+            var tags = "";
+            var tagsArray = JSON.parse(performer.tags);
+            for(var i = 0 ; i < tagsArray.length ; i++)
+            {
+              tags += tagsArray[i];
+              if(i != tagsArray.length-1)
+              tags += " | ";
+            }
+            var html = `<div class="performer-wrapper">
+
+              <div class="performer-title-section">
+                <div class="performer-title">
+                  `+ performer.name +`
+                </div>
+                <div class="performer-tags">
+
+                    <div class="tag">`+
+                      tags
+                    +`</div>
+
+                </div>
+              </div>
+
+              <div class="performer-content">
+                <div class="performer-img">
+                  <img src="`+performer.img_url+`" alt="performer-img" />
+                </div>
+                <div class="performer-about">`+
+                performer.about
+                +`</div>
+                <div class="preview-btn-div">
+                  <button class="meta-muse">Preview</button>
+                </div>
+              </div>
+
+            </div>`;
+            document.getElementsByClassName('performer-background')[0].innerHTML=html;
+            var content = document.getElementsByClassName("performer-background");
+            content[0].style.display = "block";
+            document.body.style.overflow = "hidden";
+        })
+        .catch(function(e) {
+          console.log("err api fetching"+e);
+        });
+
+
+      }
+  </script>
+  <script type="text/javascript" src="/js/common.js"></script>
+  </body>
+</html>

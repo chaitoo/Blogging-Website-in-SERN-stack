@@ -1,0 +1,774 @@
+.fest-info {
+  float: left;
+  position: relative;
+  width: 69%;
+  padding-right: 5em;
+}
+.info-content:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+.fest-meta:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.festival-body {
+  margin-bottom: 2em;
+}
+
+.festival-body:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+.content-title {
+  padding: 0.5em;
+  font-size: 1.7em;
+  color: grey;
+}
+.fest-date {
+  padding: 0.1em 0.5em;
+  font-size: 0.8em;
+}
+.fest-venue {
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+.fest-about {
+  font-size: 1em;
+line-height: 1.5em;
+text-align: justify;
+color: gray;
+white-space: pre-line;
+}
+
+.fest-meta {
+  float: left;
+  width: 31%;
+}
+
+.meta-muse {
+  padding: 1em 3em;
+    background-color: white;
+    border: 1px solid #C04848;
+    border-radius: 2px;
+    font-size: 1em;
+    color: #C04848;
+}
+
+.meta-item {
+  padding: 0.7em;
+}
+
+.meta-item .fa {
+  padding-right: 0.5em;
+    font-size: 1.2em;
+}
+
+.fest-meta {
+  color:grey;
+}
+
+.query-section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.info-content{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+.performer-tile img {
+  width: 110%;
+height: 220px;
+margin-left: -25px;
+}
+.performer-tile {
+  float: none;
+  width: 24%;
+  margin: 0 0.5%;
+display: inline-block;
+position: relative;
+/* height: 100%; */
+overflow: hidden;
+font-size: 0;
+}
+
+.performers-div:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.performers-div {
+  overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.performer-name {
+  padding: 5%;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 26px;
+  background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+
+}
+
+.lineup-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lineup-overlay-name {
+  position: absolute;
+bottom: 5%;
+left: 30%;
+}
+
+.performers {
+  clear: both;
+}
+
+.performers-div::-webkit-scrollbar { width: 0 !important }
+
+.schedule {
+  background-color: #C04848;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 2em
+}
+
+.schedule-title {
+  padding: 0.5em;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em;
+    border-bottom: 1px solid;
+}
+
+.schedule-div-title {
+  padding: 0.7em;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.tab-link {
+  background-color: transparent;
+    color: white;
+    border: 0px;
+    font-size: larger;
+    padding: 0.6em;
+    cursor: pointer;
+    margin: 0.6em;
+    outline: none;
+}
+
+.tab-link.active {
+  border-bottom: 2px solid;
+}
+
+.faq-wrapper{
+  padding: 3em 6em;
+  width: 80%;
+  margin:0 auto;
+}
+
+.faq-ques a{
+  padding: 1em;
+font-size: 1.2em;
+cursor: pointer;
+display: block;
+
+}
+
+.faq-ques a i {
+  float: right;
+  pointer-events: none;
+}
+
+
+
+.faq-ans {
+  padding: 0em 1.2em;
+    color: grey;
+    padding-bottom: em;
+    display: none;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.faq-content {
+  margin: 0.5em;
+  border: 1px solid #C04848;
+  background-color: #ffeded;
+}
+
+.faq-ans.show{
+  display: block;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  overflow-x: hidden;
+}
+
+.performer-section:after {
+    content: '';
+    visibility: visible;
+    height: 0;
+    opacity: 0;
+    display: block;
+    clear: both;
+}
+
+.stage-tab {
+  padding: 0.5em;
+}
+
+.subnavbar-content {
+  display: inline-block;
+
+}
+
+.subnavbar-content a{
+  display: block;
+  color: white;
+  /* font-weight: bolder; */
+  padding: .5em 1.5em;
+}
+
+.fest-navbar {
+  padding: 0em 2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0em;
+  width: 100%;
+  z-index: 1;
+  /* text-align: center; */
+}
+
+.fest-info .fest-venue img {
+  width: 3%;
+}
+
+.share-btns-fest {
+  position: relative;
+}
+
+.share-text-fest {
+  font-size: 1.5em;
+    padding: 0.2em;
+    color: gray;
+}
+
+.share-btns-fest a {
+  display: inline-block;
+    width: 7%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.share-btns-fest a img {
+  width: 100%;
+}
+
+.info-content .fest-venue {
+  color: black
+
+}
+
+.info-content .fest-date {
+  color: black
+
+}
+
+.headliner-name {
+  /* padding: 5%; */
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(50,0,0,0.3);
+  background: rgba(0,0,0,.3);
+  cursor: pointer;
+  /* display: none; */
+}
+
+.performer-tile-main:hover .headliner-name {
+    /* display: block; */
+}
+
+.performer-tile-main:hover .headliner-beforehover-overlay {
+  display: none;
+}
+
+.performer-tile-main:hover img {
+    transition: 1s linear;
+    transform: scale(1.3)
+}
+
+.headliner-name {
+    /* animation: headline-animate .5s linear; */
+}
+
+@keyframes headline-animate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.headline-overlay-name {
+    /* animation: headline-text-animate .5s linear; */
+}
+@keyframes headline-text-animate {
+    0% {
+        transform: translateY(-1em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.headline-overlay-name {
+    top: 85%;
+    position: absolute;
+    left: 30%;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
+.performer-tile-main {
+  float: none;
+width: 30%;
+margin-right: 3%;
+display: inline-block;
+overflow: hidden;
+position: relative;
+}
+
+.performer-tile-main:hover .headliner-name{
+  /* display: block; */
+  background: rgba(50,0,0,0.3);
+}
+
+.performer-tile-main img {
+  width: 150%;
+  transition: .5s linear;
+  margin-left: -8%;
+}
+
+.performers-div-main:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.performers-div-main {
+  overflow-x: hidden;
+overflow-y: hidden;
+width: 80%;
+white-space: nowrap;
+margin: 0 auto;
+}
+
+.performers-div-main::-webkit-scrollbar { width: 0 !important }
+
+/* performer - div */
+
+
+
+.performer-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(50,0,0,0.6);
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.performer-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+.performer-tags:after {
+    content: '';
+    visibility: visible;
+    height: 0;
+    opacity: 0;
+    display: block;
+    clear: both;
+}
+
+.tag {
+  display: inline-block;
+  position: relative;
+}
+
+.performer-img {
+  text-align: center;
+
+}
+
+.performer-img img {
+  width: 50%;
+}
+
+.performer-title {
+    padding: 0.5em;
+    padding-top: 1.5em;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.performer-tags {
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 1.5em;
+  color: gray;
+}
+
+.performer-title-section {
+  border-bottom: 1px solid;
+}
+
+.performer-content {
+  padding: 2em;
+}
+
+.performer-about {
+    padding: 1em;
+    text-align: justify;
+    white-space: pre-wrap;
+}
+
+.preview-btn-div {
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* gallery */
+
+.video-big {
+  width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.video-big video {
+  width: 80%;
+}
+
+.video-big .fa-play-circle-o {
+  position: absolute;
+top: 42%;
+left: 47%;
+color: white;
+font-size: 5em;
+pointer-events: none;
+}
+
+.video-big .fa-heart-o {
+  position: absolute;
+top: 0;
+right: 10%;
+color: white;
+font-size: 1.5em;
+padding: 0.2em;
+}
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.gallery-top {
+  padding: 1em;
+}
+
+
+/*venue */
+.venue-div {
+  width: 63%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+.venue-title {
+  padding: 0em 0.3em;
+font-size: 1.5em;
+}
+
+.venue-adress {
+  white-space: pre-line;
+padding: 0.5em;
+font-size: 1.2em;
+color: gray;
+}
+
+.venue-left {
+  display: inline-block;
+}
+
+.venue-right {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.venue-about {
+  font-size: 1em;
+color: gray;
+padding: 0.5em;
+text-align: justify;
+line-height: 1.6em;
+}
+
+.performer-slide-left-btn {
+  position: absolute;
+    top: 50%;
+    left: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    padding-left: 0.8em;
+    outline: transparent;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.performer-slide-right-btn {
+  position: absolute;
+    top: 50%;
+    right: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    padding-right: 0.8em;
+    outline: transparent;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.gap {
+  display: block;
+width: 70px;
+height: 15px;
+border-bottom: 1px solid;
+margin: 0 auto;
+}
+
+.schedule-gap {
+  display: block;
+width: 70px;
+height: 15px;
+border-bottom: 1px solid;
+margin: 0 auto;
+}
+
+.gallery-bottom {
+  width: 80%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .gallery-video-small {
+    width: 30%;
+position: relative;
+cursor: pointer;
+display: inline-block;
+margin: 0.5em;
+  }
+
+  .gallery-video-small .fa-play-circle-o {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: white;
+    font-size: 3em;
+    pointer-events: none;
+  }
+
+  .gallery-video-small .fa-heart-o {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        font-size: 1.5em;
+        padding: 0.2em;
+  }
+
+  .gallery-video-small video {
+    width: 100%;
+height: 10em;
+background-color: black;
+  }
+
+  .performers-wrapper {
+    margin-bottom: 2em;
+  }
+
+  .fest-banner-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+      background: rgba(0,0,0,0.3);
+      pointer-events: none;
+  }
+
+  .fest-banner-overlay-title {
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    width: 100%;
+    letter-spacing: 1em;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.fest-banner-overlay-subtitle {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    font-size: 1.5em;
+    letter-spacing: 9px;
+}
+
+.overlay-down {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    font-size: 2em;
+}
+
+.overlay-down a{
+  color: white;
+  pointer-events: all;
+}
+
+.stage-performer-slide-left-btn {
+  position: absolute;
+    top: 60%;
+    left: -11%;
+    border: 0;
+    background-color: transparent;
+    font-size: 3em;
+    cursor: pointer;
+    padding-left: 0.8em;
+    outline: transparent;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.stage-performer-slide-right-btn {
+  position: absolute;
+    top: 60%;
+    right: -11%;
+    border: 0;
+    background-color: transparent;
+    font-size: 3em;
+    cursor: pointer;
+    padding-right: 0.8em;
+    outline: transparent;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.schedule-day {
+  position: relative;
+}
+
+.faq-content-wrapper {
+  padding-top: 2em;
+}
+
+.headliner-beforehover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    pointer-events: none;
+}
+
+.beforehover-title {
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.performer-tile-main:hover .headline-overlay-name {
+    top: 35%;
+}

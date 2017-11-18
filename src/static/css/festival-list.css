@@ -1,0 +1,410 @@
+/* slide */
+.slide-banner-img {
+  width: 100%;
+  height: 22em;
+}
+
+.slidable-banner-div {
+  overflow: hidden;
+  padding: 2em;
+  position: relative;
+}
+
+.slide-right-btn {
+  margin: 1em;
+  position: absolute;
+  top: 3em;
+  right: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 3em;
+  cursor: pointer;
+  outline: transparent;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.slide-left-btn {
+  margin: 1em;
+  position: absolute;
+  top: 3em;
+  left: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 3em;
+  cursor: pointer;
+  outline: transparent;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-layer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.layer-title {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: white;
+}
+
+.layer-subtitle {
+  font-size: 1.7em;
+  color: white;
+  font-weight: bold;
+}
+
+.img-div {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner-date-overlay {
+  position: absolute;
+    top: 0;
+    width: 3em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5em 0.5em;
+    margin: 1em;
+    text-align: center;
+    font-size: 1.7em;
+    border-radius: 8px;
+    border: 3px solid white;
+    font-weight: bold;
+}
+
+.banner-heart {
+  position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    padding: 0.5em;
+    width: 11em;
+}
+
+.banner-heart img {
+  float: right;
+    width: 10%;
+}
+
+/* festival listing */
+
+
+.fest-list-wrapper {
+  padding: 1.1em 1.1em;
+}
+
+
+.fest-list-content:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.filter-container:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+
+
+
+.title {
+  padding-bottom: 0em;
+  float: left;
+  width: 70%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.fest-list-content {
+  position: relative;
+}
+
+.fest-list-content a{
+  color: black;
+}
+
+.fest-list-content .left-content {
+  float: left;
+  width: 40%;
+  padding: 0.4em;
+}
+
+.fest-list-content .left-content img {
+  width: 100%;
+}
+
+.fest-list-content .right-content {
+  float: left;
+  width: 60%;
+  position: relative;
+  padding: 0.4em;
+}
+
+.performers {
+position: relative;
+
+}
+
+.btn-muse {
+  display: inline-block;
+  width: 25%;
+}
+
+.btn-muse .muse-btn {
+  background-color: white;
+  color: #C04848;
+  border-radius: 0;
+  border: 1px solid #C04848;
+  font-size: 1em;
+  padding: 15px 10px;
+  margin: 0px 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.date {
+  padding: 0.2em;
+  color: gray;
+  font-size: 0.9em;
+}
+
+
+.venue {
+  padding: 0.4em;
+  color: gray;
+  font-size: 0.9em;
+}
+
+.about {
+  padding: 0.2em;
+  font-size: 0.9em;
+    line-height: 1.2em;
+  text-align: justify;
+}
+
+.performers {
+  padding: 0.2em;
+}
+
+.filter-container {
+  padding: 2em;
+  text-align: center;
+}
+
+.fest-list-content i{
+  padding-right: 0.7em;
+}
+
+.headline {
+  font-size: 0.9em;
+padding: 0.2em;
+color: #9b9b9b
+}
+
+.headline a {
+  color: red;
+  cursor: pointer;
+}
+.share-btns {
+  position: relative;
+  border-bottom: 1px solid #c9c7c7;
+  padding: 0px 35px;
+}
+.share-btns a{
+  display: inline-block;
+  width: 5%;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.share-btns a img {
+  width: 100%;
+}
+
+.share-text {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    transform: translate(-50%, -30%);
+    font-size:1em;
+    padding: 0.5em;
+    color: gray;
+}
+
+.page-title {
+  padding: 0.7em;
+    text-align: center;
+    font-size: 2em;
+    color: #a16161;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  min-width: 10em;
+  background-color: #e8edf3;
+  cursor: pointer;
+  margin: 0.5em;
+
+}
+
+.dropdown .dropdown-title{
+  padding: 0.7em 1.5em;
+  text-align: center;
+}
+
+.dropdown .dropdown-title a {
+  pointer-events: none;
+
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  width: 10em;
+}
+
+.dropdown .dropdown-menu .filter-selected{
+  background-color: #e8edf3;
+}
+
+.dropdown .dropdown-menu .dropdown-content{
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.dropdown .dropdown-menu .dropdown-content a {
+  padding: 0.7em 1.5em;
+  width: 100%;
+  display: block;
+}
+
+
+.dropdown .dropdown-menu .dropdown-content:hover {
+  background-color: #e8edf3;
+}
+
+.dropdown .dropdown-menu-show {
+    display: block;
+  }
+
+.dropdown .fa {
+  pointer-events: none;
+  z-index: -2;
+}
+
+.dropdown .fa-angle-down {
+  float: right;
+  font-size: 1.3em;
+}
+
+.dropdown .fa-tags{
+  float: left;
+}
+
+.dropdown .fa-map-marker{
+  float: left;
+}
+
+
+
+.search-filters {
+  display: inline-block;
+    position: relative;
+    z-index: 1;
+    min-width: 10em;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.search-filters button {
+  width: 100%;
+    padding: 0.6em;
+    border: 1px;
+    background-color: #c04848;
+    color: white;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.banner-dots {
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+padding: 10px;
+border-radius: 50%;
+margin: 10px;
+background: #9b9b9b;
+cursor: pointer;
+}
+
+.dot.active {
+  background: #c04848;
+}
+
+.fest-list-main-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:600px) {
+  .fest-list-content .left-content {
+    /* float: left; */
+    /* width: 40%; */
+    padding: 0.4em;
+    width: 100%;
+    display: block;
+}
+
+.fest-list-content .right-content {
+    /* float: left; */
+    /* width: 60%; */
+    position: relative;
+    padding: 0.4em;
+    display: block;
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+.header {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.btn-muse .muse-btn {
+  padding: 1em 2em;
+}
+}

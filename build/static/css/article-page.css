@@ -1,0 +1,190 @@
+
+.blog-description {
+    padding: 0em 2em;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.blog-page-title {
+  padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+.related-articles-title {
+  padding: 1em 2em;
+font-size: 2em;
+color: black;
+font-weight: bold;
+}
+
+.related-blog-title {
+    padding: 0.3em;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.related-blog-about {
+  padding: 0.3em;
+    font-size: 1.3em;
+    line-height: 2.4em;
+    text-align: justify;
+    width: 90%;
+}
+
+.related-blog-about b {
+  color: #4990e2;
+  cursor: pointer;
+}
+
+
+
+.related-blog-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em
+}
+
+.feedback-div {
+  padding: 0em 5em;
+}
+
+.star-div {
+  padding: 2.5em 0em;
+  display: inline-block;
+  color: #c04848;
+}
+
+.star-div i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.share-div {
+  display: inline-block;
+  float: right;
+padding: 2em 0em;
+}
+
+.share-div button {
+    border: 1px solid #c04848;
+    padding: 0.7em 1.5em;
+    background-color: white;
+    color: #c04848;
+    font-size: 1.2em;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0em 0.5em;
+    padding-left: 1.3em;
+}
+
+.share-div .fa {
+  margin-right: 10px;
+}
+
+.load-more {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5em 0em;
+}
+
+.load-more button {
+  border: 1px;
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1.3em;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
+    color: #c04848;
+    background-color: #ebebeb;
+}
+
+/* video full*/
+
+.video-full {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.video-full i {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: white;
+    font-size: 5em;
+    pointer-events: none;
+}
+
+#video-full-width {
+  width: 100%;
+}
+
+.blog-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.related-blog-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.related-blog-content::after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.related-blog-left-content {
+    float: left;
+    width: 40%;
+    padding-right: 1em;
+}
+
+.related-blog-left-content img {
+    width: 100%;
+}
+
+.related-blog-right-content {
+    float: left;
+    width: 60%;
+}
+
+.related-blog-title {
+    padding: 0em;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* color: black; */
+}
+
+.related-blog-title a {
+  color: black;
+}
+
+.related-blog-venue {
+    padding: 10px 0px;
+}
+
+.related-blog-about {
+    padding: 5px 0em;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 100%;
+}

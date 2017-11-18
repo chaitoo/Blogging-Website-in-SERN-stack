@@ -1,0 +1,801 @@
+@media screen and (max-width:600px) {
+
+  /*navbar*/
+
+  body{
+    overflow-x: hidden;
+  }
+  .nav-logo {
+    float: left;
+    vertical-align: middle;
+    width: 35%;
+    padding: 5px 0px;
+  }
+
+  .nav-logo a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .nav-logo img {
+    width: 100%;
+  }
+
+  .nav-body {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 0em;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: white;
+    border: 1px solid #E0E0E0;
+    top: 45px;
+  }
+
+  .nav-content {
+    float: none;
+    padding: 0em 0em;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .login-div {
+    float: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 45px;
+  }
+
+  .nav-industry-login {
+    float: none;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    background-color: white;
+    border: 1px solid #C04848;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .nav-login {
+    float: none;
+    padding: 0;
+    background-color: #C04848;
+    text-align: center;
+  }
+
+  .mobile-navbar-content::after {
+    content: '';
+    clear: both;
+    display: block;
+    visibility: visible;
+    opacity: 0;
+    height: 0;
+  }
+
+  .xs.user-login {
+    float: left;
+    padding: 12px 20px;
+    font-size: 1.3em;
+  }
+
+  .xs.ham-icon {
+    float: left;
+    padding: 12px 15px;
+    font-size: 1.3em;
+  }
+
+  .mobile-navbar-content {
+    float: right;
+  }
+
+  .navbar .fa{
+    pointer-events: none;
+  }
+
+
+/*end of navbar*/
+
+/* about page */
+.about-wrapper {
+  width: 85%;
+}
+
+/* end of about page */
+
+
+/* festival page */
+.banner {
+  height: 150px;
+}
+
+.overlay-down {
+  top: 80%;
+}
+
+.lineup-overlay-name {
+  left: 15%;
+}
+
+.performer-name {
+  font-size: 20px;
+}
+
+.info-content {
+  padding-top: 0;
+}
+
+.fest-info {
+    float: none;
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+}
+
+.share-btns-fest {
+  text-align: center;
+}
+
+.fest-meta {
+    float: none;
+    width: 100%;
+}
+
+.meta-item {
+  text-align: left;
+}
+
+.meta-content {
+  text-align: left;
+}
+
+.share-btns-fest a {
+  width: 20%;
+}
+
+.performers-div-main {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.performer-tile-main {
+    float: none;
+    width: 45%;
+    margin-right: 0%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.performer-tile-main img {
+    width: 150%;
+    transition: .5s linear;
+    margin-left: -24%;
+}
+
+.headliner-name {
+  font-size: 1em;
+}
+
+.performer-slide-left-btn {
+  display: none;
+}
+
+.performer-slide-right-btn {
+  display: none;
+}
+
+.lineup-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.schedule-title {
+    padding: 0em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    border-bottom: 1px solid;
+}
+
+.stage-tab {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.tab-link {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    font-size: 1em;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    margin: 0.6em;
+    outline: none;
+}
+
+.performer-tile {
+    float: none;
+    width: 45%;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.performer-tile img {
+    width: 110%;
+    height: unset;
+    margin-left: 0;
+}
+
+.performer-name {
+  font: 1em;
+}
+
+.stage-performer-slide-left-btn {
+    display: none;
+}
+
+.stage-performer-slide-right-btn {
+    display: none;
+}
+
+.tab-content.active {
+  overflow-x: scroll;
+}
+
+.schedule-content {
+  padding-bottom: 3em;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.gallery-top {
+    padding: 0;
+}
+
+.video-big {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.video-big video {
+    width: 90%;
+}
+
+.video-big .fa-play-circle-o {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    color: white;
+    font-size: 3em;
+    pointer-events: none;
+}
+
+.gallery-bottom {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery-video-small {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0em;
+}
+
+.gallery-video-small video {
+    width: 90%;
+    height: 10em;
+    background-color: black;
+}
+
+.gallery-video-small .fa-heart-o {
+  right: 30px;
+}
+
+.venue-div {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+.venue-right {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 25px 10px;
+    text-align: left;
+}
+
+.faq-wrapper {
+    padding: 25px 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-content {
+      margin: 1.5em 0.5em;
+}
+
+.fest-about {
+  line-height: 1.2em;
+    text-align: left;
+}
+
+.venue-about {
+  text-align:left;
+}
+
+.faq-ques a {
+  font-size: 1em;
+}
+/*end of festival page*/
+
+/*home page */
+
+.trending-title {
+  font-size: 2em;
+}
+
+.card {
+  padding: 0.5em;
+}
+
+.fest-venue {
+    padding: 0.8em 0.2em;
+    font-size: 1em;
+}
+
+.fest-date {
+    padding: 0.1em;
+    font-size: 1em;
+}
+
+.video-small {
+  width: 100%;
+  margin: 0;
+}
+
+.video-small video {
+  width: 100%;
+}
+
+.video-small .fa-play-circle-o {
+  top: 35%;
+    left: 45%;
+}
+
+.query-left {
+    float: none;
+    width: 100%;
+}
+
+.query-left img {
+    width: 100%;
+}
+
+.query-right {
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+
+/*end of home page */
+
+/* footer */
+.footer-wrapper {
+    padding: 10px;
+    color: white;
+    background-color: #252839;
+}
+
+.footer-wrapper .footer-title {
+    padding: 0;
+    border-bottom: 0.03em solid white;
+}
+
+.footer-wrapper .footer-title img {
+    width: 40%;
+}
+
+.footer-wrapper .footer-content {
+    padding: 0;
+    text-align: center;
+}
+
+.footer-about {
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    width: 25%;
+    border-right: 0.01em solid #5a5c51;
+}
+
+.footer-inquiry {
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    width: 18%;
+}
+
+.footer-legal {
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    width: 20%;
+}
+
+.footer-connect {
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    width: 36%;
+    border-left: 1px solid #282c35;
+}
+
+.footer-buttons {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-wrapper .content-title {
+  font-size: 0.8em;
+}
+
+.content {
+    word-wrap: break-word;
+    font-size: 0.6em;
+}
+/*end of footer */
+
+/* banner slide */
+.slide-left-btn {
+  display: none;
+}
+
+.slide-right-btn {
+  display: none;
+}
+/*end slide banner */
+
+/*blog page */
+
+.blog-page-title {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.blog-description {
+    padding: 0em;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.video-full {
+  width: 100%;
+}
+
+.video-full i {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: white;
+    font-size: 3em;
+    pointer-events: none;
+}
+
+.feedback-div {
+    padding: 0;
+}
+
+.star-div {
+    padding: 1em 0em;
+}
+
+.share-div {
+    display: inline-block;
+    float: left;
+    padding: 1em 0em;
+}
+
+.feedback-div::after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: visible;
+  opacity: 0;
+  height: 0;
+}
+
+.share-div button {
+    border: 1px solid #c04848;
+    padding: 0.7em 1.5em;
+    background-color: white;
+    color: #c04848;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0em;
+    padding-left: 1.2em;
+}
+
+.related-articles-title {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.related-blog-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 2em;
+}
+
+.related-blog-left-content {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+}
+
+.related-blog-left-content img {
+    width: 100%;
+}
+
+.related-blog-right-content {
+    float: none;
+    width: 100%;
+}
+
+.related-blog-title {
+  font-size: 1.3em
+}
+
+.load-more {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0em;
+}
+
+/*end of blog page */
+
+/* booking page*/
+
+.ticket-fest-content {
+  text-align: left;
+}
+
+.ticket-selection-title-div {
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.booking-type {
+  padding: 1em 0em;
+}
+
+/*end of booking page */
+
+/*search page */
+
+.searchbox-div {
+  padding: 0;
+}
+
+.searchbox-div input {
+  width: 80%;
+}
+
+.performer-tile-search {
+  width: 100%;
+}
+
+/*end of search page */
+
+/* festival listing */
+
+.fest-list-main-content {
+  width: 90%;
+}
+
+.about {
+  font-size: 1em;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+.headline {
+  font-size: 1em;
+}
+
+.fest-list-wrapper {
+    padding: 0;
+    padding-bottom:2em;
+}
+
+.title {
+    padding-bottom: 0em;
+    float: none;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.date {
+  font-size: 1em;
+}
+
+.venue {
+  font-size: 1em;
+}
+
+.btn-muse {
+    display: inline-block;
+    width: 50%;
+    /* padding: 1em; */
+    margin: 0 auto;
+}
+
+.share-text {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    transform: none;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: gray;
+}
+
+.share-btns a {
+    width: 19%;
+}
+
+.share-btns {
+  padding: 0.4em;
+}
+
+.share-text {
+  display: inline-block;
+    position: relative;
+    left: 0;
+    transform: none;
+    font-size: 1em;
+    margin-top: 0;
+    padding: 0;
+    color: gray;
+}
+
+
+/*end of festival listing */
+
+/* dropdown */
+.dropdown i.fa.fa-calendar {
+    float: left;
+}
+
+.dropdown i.fa.fa-globe {
+    float: left;
+}
+/*end of dropdown */
+
+
+/* view more */
+.load-more button {
+  font-size: 1em;
+  width: 90%
+}
+
+.load-more {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0em;
+    text-align: center;
+}
+/*end of view more */
+
+/* video page */
+
+.video-page-left {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+.related-videos {
+  text-align: center;
+}
+
+.video-page-small {
+  width: 70%;
+}
+
+.video-page-right {
+    float: none;
+    width: 100%;
+    background: white;
+    margin: 0.3em;
+}
+
+/*end of video page */
+
+/* performer page */
+.performer-wrapper {
+  max-width: 75%;
+}
+
+.performer-title {
+  padding-top: 0.5em;
+}
+
+.performer-content {
+    padding: 0.5em;
+}
+
+.performer-img img {
+    width: 100%;
+}
+
+.performer-about {
+    padding: 0.5em;
+    text-align: left;
+    white-space: pre-line;
+    font-size: 11px;
+}
+
+.preview-btn-div {
+  padding: 0.5em;
+}
+
+.meta-muse {
+      padding: 1em 2em;
+      width: 100%;
+}
+
+/*end of performer page */
+
+
+
+.xs {
+  display: block;
+}
+
+.xs-hide {
+  display: none;
+}
+}
